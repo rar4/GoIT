@@ -3,6 +3,7 @@ from typing import Union
 
 
 def kalkulatorus(fir_num: Union[int, float], sec_num: Union[int, float], act: str) -> Union[int, float]:
+    """kalkulator"""
     if act == '+':
         return kalkulator.plus(fir_num, sec_num)
     elif act == '-':

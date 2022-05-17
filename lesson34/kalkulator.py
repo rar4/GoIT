@@ -2,6 +2,7 @@ from typing import Union
 
 
 def plus(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
+
     return a + b
 
 
@@ -22,6 +23,7 @@ def podelit_celolochisleno(a, b):
 
 
 def ostatok(a, b):
+    """power"""
     return a % b
 
 
