@@ -264,7 +264,7 @@ class Student(Adult):
 
 
 class Test:
-
+    """class for making school tests"""
     def __init__(self, teacher):
         val = 9
         tst = {}
