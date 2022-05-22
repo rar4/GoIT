@@ -1,4 +1,5 @@
 ﻿import datetime as dat
+from typing import List
 a = 0
 
 
@@ -13,7 +14,7 @@ class Human:
         return data
 
     # вибачте, але я так і не зрозумів, як виправити ці помилки
-    def __init__(self, name: str, lname: str, floor: str, sens: str, love=[],  friends=[]):
+    def __init__(self, name: str, lname: str, floor: str, sens: str, love: List = [],  friends: List = []):
         self.date_birdhday = self.date()
         self.name = name
         self.lname = lname
