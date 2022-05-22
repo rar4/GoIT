@@ -1,7 +1,4 @@
-from typing import Union
-
-
-def sum_list(lis: list) -> Union[int, float]:
+def sum_list(lis: list) -> int:
     """finds sum of nums in list"""
     result = 0
     if len(lis) == 1 and str(type(lis[0])) == "<class 'int'>":
